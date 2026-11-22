@@ -2,14 +2,12 @@ import React from 'react'
 
 export function About(){
   return (
- <section className="section">
+ <section id="about" className="py-16 md:py-20">
       <h2 className="text-3xl md:text-4xl font-extrabold gradient-text mb-8">About</h2>
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div className="card p-6">
           <p className="opacity-85">
-           I am a React Native developer specializing in cross‑platform app development for iOS and Android.
-           I enjoy building scalable, performant apps with clean architecture and a great user experience.
-           I have hands‑on experience with Redux, REST APIs, Firebase, native modules, and modern tooling.
+           I’m a Mobile Software Engineer specializing in React Native apps for iOS and Android. I’ve worked across architecture, shared component systems, real-time features, payments, analytics, and app releases. My toolkit includes Redux, Firebase, REST APIs, native modules, and performance debugging. I also build personal data and machine learning projects with Python.
           </p>
         </div>
         <div className="card p-8 flex flex-col items-center">
