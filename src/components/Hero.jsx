@@ -7,7 +7,7 @@ import { contact } from '../data/contact'
 export function Hero(){
   return (
     <section className="py-16 md:py-24">
-      <div className="grid md:grid-cols-2 gap-10 items-center">
+      <div className="grid lg:grid-cols-2 gap-10 items-center">
         <motion.div
           initial={{opacity:0, y:18}} animate={{opacity:1, y:0}} transition={{duration:.7}}
           className="space-y-6">
@@ -31,9 +31,10 @@ export function Hero(){
           </div>
         </motion.div>
         <motion.div initial={{opacity:0, scale:.96}} animate={{opacity:1, scale:1}} transition={{duration:.7, delay:.15}}>
-          <div className="relative mx-auto max-w-md">
-            <div className="absolute -inset-5 bg-gradient-to-r from-violet-200 to-fuchsia-100 rounded-[2rem] blur-xl opacity-70"></div>
-            <img className="relative rounded-[2rem] w-full aspect-[4/4.2] object-cover object-top ring-1 ring-white/10" src={`${import.meta.env.BASE_URL}images/self.jpeg`} alt="Rahul Singh"/>
+          <div className="hero-visual mx-auto w-full max-w-2xl">
+            <div className="hero-photo-wrap">
+              <img className="hero-avatar" src={`${import.meta.env.BASE_URL}images/self.jpeg`} alt="Rahul Singh"/>
+            </div>
           </div>
         </motion.div>
       </div>

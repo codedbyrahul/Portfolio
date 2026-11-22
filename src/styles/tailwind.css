@@ -58,6 +58,39 @@ body { margin: 0; background: #fff; color: #24292f; }
 .hover\:shadow-glow:hover { box-shadow: 0 8px 20px rgba(85,25,139,.2); }
 .orbit .icon { background: #f7f2fb; border-color: #e5d9ef; }
 
+.hero-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 380px;
+}
+.hero-photo-wrap {
+  position: relative;
+  isolation: isolate;
+  width: clamp(260px, 27vw, 310px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.hero-photo-wrap::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: -1rem;
+  border-radius: inherit;
+  background: linear-gradient(135deg, #9b6bc8, #e1c5f5 55%, #a78bfa);
+  filter: blur(24px);
+  opacity: .62;
+}
+.hero-avatar {
+  display: block;
+  width: 100%; height: 100%;
+  border: 7px solid #fff;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 28%;
+  box-shadow: 0 12px 36px rgba(36,20,52,.24);
+}
+
 .theme-toggle {
   display: inline-flex; align-items: center; justify-content: center;
   width: 40px; height: 40px; border: 1px solid #e5d9ef; border-radius: 9999px;
@@ -78,10 +111,17 @@ body { margin: 0; background: #fff; color: #24292f; }
 .theme-dark .bg-white\/5 { background: rgba(255,255,255,.06); }
 .theme-dark .link { color: #d8b4fe; }
 .theme-dark .orbit .icon { background: #241a30; border-color: #49335c; }
+.theme-dark .hero-avatar { border-color: #191923; }
+.theme-dark .hero-photo-wrap::before { opacity: .8; }
 .theme-dark .theme-toggle { background: #241a30; border-color: #49335c; color: #facc15; }
 .theme-dark input, .theme-dark textarea { color: #f4f4f5; }
 .theme-dark input::placeholder, .theme-dark textarea::placeholder { color: #a1a1aa; }
 .theme-dark footer { border-color: rgba(255,255,255,.12); }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+@media (max-width: 640px) {
+  .hero-visual { min-height: 0; justify-content: center; }
+  .hero-photo-wrap { width: clamp(220px, 62vw, 260px); }
 }
