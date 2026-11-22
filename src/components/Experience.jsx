@@ -3,37 +3,31 @@ import React from 'react'
 
 const roles = [
   {
-    company: 'OHi',
+    company: 'Saorsa Technocrat Private Limited (OHi)',
     title: 'React Native Developer',
-    period: '07/2023 - Present',
+    period: 'Jul 2023 - Present · Jaipur, Rajasthan',
     points: [
-  'A social network that allows people to connect in the real world with others based on “What you are doing” at that moment.',
-  'Developed a React Native app for meaningful connections in Cafes, Airports, and more.',
-  'Implemented a special Waitlist feature for digital influencers’ real-life recognition.',
-  'Designed and built UI/UX components for seamless user interaction using React Native.',
-  'Integrated RESTful APIs for real-time data synchronization.',
-  'Managed app state using Redux for predictable behavior and centralized data flow.',
-  'Used Git for version control and actively collaborated through code reviews and pull requests.',
-  'Performed cross-device testing and optimized app performance.',
-  'Extended React Native functionality by incorporating custom native modules to access device-specific features.'
+      'Partnered with product managers and designers to define architecture for a real-time social app serving 1.2M+ users, across 25 modules and 70+ screens.',
+      'Built Firebase chat, push notifications, and analytics events to track user engagement.',
+      'Refactored and debugged the React Native app with Chrome DevTools and React DevTools to improve performance and cross-device reliability.',
+      'Maintained a shared component library of 198 source files used across 280+ feature and screen files.',
+      'Integrated PhonePe in production for secure in-app payments.',
+      'Designed Redux state management across 19 user-facing flows, with 144 reducers and 27 sagas.',
+      'Contributed to Agile planning, stand-ups, and peer reviews; shipped 43+ native releases and 5 CodePush updates.',
+      'Owned App Store and Google Play releases using Fastlane, TestFlight, and Play Store Internal Testing.',
+      'Resolved platform-specific navigation, build, signing, media, upload, pagination, and session issues.'
 ]
 
   },
   {
     company: 'Kiwitech India',
     title: 'Associate Software Engineer — Mobile Team',
-    period: '01/2022 - 06/2023',
+    period: 'Jan 2022 - Jun 2023 · Noida, India',
     points: [
-  'Kiwitech India is a technology services company.',
-  'Started as an Associate Software Engineer and worked on 4 React Native projects across iOS and Android.',
-  'Developed cross-platform mobile applications using React Native, ensuring consistent performance on both platforms.',
-  'Utilized React Native with Redux for scalable and maintainable state management across complex workflows.',
-  'Built dynamic navigation flows using React Navigation, including stack, tab, and drawer navigators.',
-  'Integrated REST APIs into React Native apps for seamless data exchange with backend services.',
-  'Leveraged Firebase for real-time databases, user authentication, and cloud functions.',
-  'Enhanced UI/UX performance using Reanimated for smooth, native-like animations.',
-  'Improved performance through efficient list rendering, code optimization, and memory management.',
-  'Integrated interactive maps and location services using Google Maps SDK and geolocation modules.'
+      'Delivered four React Native projects across iOS and Android, translating product requirements into technical design documents.',
+      'Improved responsiveness and image loading with Reanimated, FastImage, and Maps integrations.',
+      'Built native modules and REST API and Firebase integrations to extend app capabilities.',
+      'Worked with cross-functional teams in Agile delivery.'
 ]
 
   }

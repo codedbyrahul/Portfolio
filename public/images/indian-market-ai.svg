@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" fill="none">
+  <rect width="360" height="220" rx="18" fill="#101B2D"/>
+  <circle cx="300" cy="39" r="56" fill="#1D4ED8" opacity=".22"/>
+  <path d="M28 174h304" stroke="#52627A" stroke-width="2"/>
+  <path d="m39 145 44-27 36 15 42-54 39 26 37-38 35 17 49-39" stroke="#38BDF8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M28 184h72" stroke="#A78BFA" stroke-width="7" stroke-linecap="round"/>
+  <path d="M119 184h43" stroke="#34D399" stroke-width="7" stroke-linecap="round"/>
+  <text x="29" y="45" fill="#F8FAFC" font-family="Arial,sans-serif" font-size="17" font-weight="700">INDIAN MARKET AI</text>
+  <text x="29" y="68" fill="#94A3B8" font-family="Arial,sans-serif" font-size="11">NIFTY DIRECTION · SIGNAL DASHBOARD</text>
+</svg>

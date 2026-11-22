@@ -1,22 +1,35 @@
 export const projects = [
   {
-    title: 'OHi',
-    period: '07/2023 - Present',
+    title: 'Indian Market AI',
+    category: 'Personal Project',
+    period: '2026',
     blurb: [
-      'A social network enabling real-world connections based on current activities.',
-      'Implemented real-time chat using Firebase and push notifications with FCM.',
-      'Integrated GiftedChat for rich chat UI and seamless in-app payments via PhonePe.',
-      'Developed dynamic Reel scrolling using react-native-video and reusable components for scalability.',
-      'Managed state with Redux and handled navigation using React Navigation.',
-      'Deployed apps to App Store and Play Store, ensuring compliance and smooth releases.',
-      'Added dynamic theming using useColorScheme and enhanced debugging with Chrome/React DevTools.'
+      'Built a Streamlit dashboard that predicts NIFTY direction from global market signals, technical indicators, and machine learning models.',
+      'Combined global indices, India VIX, FII/DII flows, RSI, EMA20, and MACD with scikit-learn and XGBoost.',
+      'Added historical backtesting, a SQLAlchemy data layer, and TTL caching for market data.',
+      'Created interactive views for global markets, technical indicators, predictions, and trade ideas.'
     ],
-    tech: ['React Native','Redux','Firebase','GiftedChat','FCM','PhonePe','React Navigation','Video'],
-    image: 'https://media.licdn.com/dms/image/v2/D560BAQFHW0dD2yHoLQ/img-crop_100/img-crop_100/0/1738173859117?e=1759363200&v=beta&t=UdC2Uv7v-q229mId-oJGi4J-dQVEPJr_6bQ4MzEitmA'
+    tech: ['Python', 'Streamlit', 'scikit-learn', 'XGBoost', 'pandas', 'NumPy', 'yfinance', 'SQLAlchemy', 'Plotly'],
+    image: 'images/indian-market-ai.svg'
   },
   {
-    title: 'Kiwitasks',
-    period: '04/2023',
+    title: 'OHi — Real-Time Social Networking App',
+    category: 'Professional Project',
+    period: 'Jul 2023 - Present',
+    blurb: [
+      'Delivered real-time chat and push notifications for a social app serving 1.2M+ users.',
+      'Integrated GiftedChat and PhonePe production payments; built reusable video reel scrolling.',
+      'Designed Redux state across 19 user-facing flows, with 144 reducers and 27 sagas.',
+      'Shipped 43+ native releases and 5 CodePush updates through Fastlane, TestFlight, and Play Store Internal Testing.',
+      'Maintained a shared component library of 198 source files used across 280+ feature and screen files.',
+      'Implemented dynamic theming and diagnosed cross-platform navigation, media, build, and session issues.'
+    ],
+    tech: ['React Native','Redux','Firebase','GiftedChat','FCM','PhonePe','React Navigation','Video'],
+    image: 'images/ohi.svg'
+  },
+  {
+    title: 'Kiwitasks — Cross-Platform To-Do App',
+    period: 'Apr 2023',
     blurb: [
       'Cross-platform To-Do application for iOS and Android.',
       'Built CRUD operations with React Hooks and persistent storage using AsyncStorage.',
@@ -24,11 +37,11 @@ export const projects = [
       'Added custom animations and gesture handling using React Native Reanimated.'
     ],
     tech: ['React Native','AsyncStorage','Hooks','Reanimated'],
-    image: 'https://thor7037.github.io/Portfolio/images/kiwitask.png'
+    image: 'images/kiwitask.png'
   },
   {
-    title: 'Kiwibuzz',
-    period: '03/2023',
+    title: 'Kiwibuzz — Social Content Discovery App',
+    period: 'Mar 2023',
     blurb: [
       'A social media app to explore trending and latest content.',
       'Integrated Firebase Storage for media uploads and Firestore for data management.',
@@ -37,11 +50,11 @@ export const projects = [
       'Applied Redux and Context API for efficient state management.'
     ],
     tech: ['React Native','Firebase Storage','Firestore','Redux','Context API','React Native Paper'],
-    image: 'https://thor7037.github.io/Portfolio/images/kiwibuzz.png'
+    image: 'images/kiwibuzz.png'
   },
   {
-    title: 'Krisspi',
-    period: '01/2023 - 02/2023',
+    title: 'Krisspi — On-Demand Grooming Services App',
+    period: 'Jan 2023 - Feb 2023',
     blurb: [
       'On-demand grooming service app for home, office, or hotel bookings.',
       'Implemented Firebase Authentication, Firestore, and FCM for secure login, real-time updates, and notifications.',
@@ -53,8 +66,8 @@ export const projects = [
     image: 'https://static.wixstatic.com/media/e79f94_ec74cd75644647cca33847c57e0398ee~mv2.png/v1/fill/w_158,h_156,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Krisspi%20Logo%20TM-%20ICON%20%2B%20TEXT.png'
   },
   {
-    title: 'Fanful',
-    period: '06/2022 - 12/2022',
+    title: 'Fanful — Cross-Platform Sports Social App',
+    period: 'Jun 2022 - Dec 2022',
     blurb: [
       'A cross-platform social sports app enhancing fan engagement.',
       'Built dynamic feed using FlatList and optimized images with FastImage.',
